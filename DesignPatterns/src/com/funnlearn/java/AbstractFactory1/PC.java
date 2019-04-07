@@ -1,14 +1,14 @@
-package com.funnlearn.java.AbstractFactory;
+package com.funnlearn.java.AbstractFactory1;
 
-public class Server extends Computer {
-
+public class PC extends Computer {
+	
 	private String ram;
 	private String hdd;
 	private String cpu;
 	
 	
-	public Server(String ram, String hdd, String cpu) {
-		super();
+	public PC(String ram,String hdd,String cpu)
+	{
 		this.ram = ram;
 		this.hdd = hdd;
 		this.cpu = cpu;
